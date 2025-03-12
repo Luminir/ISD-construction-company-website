@@ -39,12 +39,13 @@ const Home = () => {
     {/* Text Content */}
     <div className="w-full max-w-3xl">
       <h2 className="text-gray-500 text-3xl font-light">Giới thiệu</h2>
-      <h1 className="text-red-600 text-6xl font-bold">HỢP LỰC</h1>
+      <h1 className="text-logo-gradient text-6xl font-bold">PICONS</h1>
       <p className="mt-6 text-gray-700 text-lg font-semibold">
         KHỞI ĐẦU TỪ MỘT NỀN MÓNG VỮNG CHẮC
       </p>
       <p className="mt-4 text-gray-600 leading-relaxed">
-        Đó là triết lý, là kim chỉ nam được xây dựng trong suốt quá trình hình thành và phát triển của Hợp Lực.
+        Đó là triết lý, là kim chỉ nam được xây dựng trong suốt quá trình hình thành và phát triển của Hợp Lực.fffff
+        ffffff fffff ffffff ffff ff fff ffffff ff fffffff ffff ffffff ff fff  fffff  fff ffff fffff ff ffff fff f ffff  f   ffff  ff fffff  ffff ff ffff
       </p>
     </div>
 
@@ -54,7 +55,7 @@ const Home = () => {
       <div className="relative group">
         <img src={img1} alt="Lịch sử hình thành" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/70 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-          <span className="text-white text-xl font-semibold">LỊCH SỬ HÌNH THÀNH</span>
+          <span className="text-white text-xl font-semibold">TỔNG QUAN CÔNG TY</span>
         </div>
       </div>
 
