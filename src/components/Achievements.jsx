@@ -12,8 +12,8 @@ const Achievements = () => {
                 <img src="/logo.jpg" alt="Company Logo" className="w-32 h-32 object-contain" />
           </div>
           <h2 className="text-blue-700 text-2xl font-bold">
-            Our company provides installation brick, block, & stone <br />
-            for General Contractors and Building Owners.
+          Công ty chúng tôi cung cấp dịch vụ thiết kế, lắp đặt, xây dựng, tư vấn. <br />
+            cho các Công trình nhà máy & xí nghiệp.
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
