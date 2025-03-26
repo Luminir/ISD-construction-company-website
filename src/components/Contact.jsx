@@ -13,7 +13,6 @@ const Contact = () => {
         Sẵn sàng bắt đầu dự án xây dựng tiếp theo của bạn? Hãy liên hệ với chúng tôi ngay hôm nay để thảo luận về tầm nhìn của bạn và để chúng tôi giúp bạn xây dựng một điều gì đó tuyệt vời.
         </p>
       </div>
-
       {/* Contact Details & Form - Centered in Wide Screens */}
       <div className="w-full max-w-[900px] mt-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-[1fr_1fr] gap-6 md:gap-10 ">
         {/* Contact Details */}
@@ -41,7 +40,7 @@ const Contact = () => {
             <Phone size={24} strokeWidth={2} className="text-cyan-500" />
             <div className="text-white text-sm sm:text-base font-light">
               <h3 className="font-medium text-cyan-400">Điện thoại</h3>
-              <p>+09123458676</p>
+              <a href="tel: +09123458676"><p>+09123458676</p></a>
             </div>
           </div>
         </div>
