@@ -36,7 +36,7 @@ const Navbar = () => {
         {!isScrolled || isOpen ? (
           <div className="container mx-auto flex items-center justify-between py-4 px-6">
             <Link to="/" className="text-2xl font-bold text-logo-gradient">
-              PICONS
+              PICONS change navbar
             </Link>
             <div className="hidden md:flex space-x-6">
               <Link to="/" className={getLinkClass("/")}>Trang Chủ</Link>
