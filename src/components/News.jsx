@@ -14,7 +14,7 @@ const News = () =>{
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await fetch(process.env.PICON_LOCAL_WP);
+        const response = await fetch("http://Picons.local/wp-json/wp/v2/posts");
         const data = await response.json();
         console.log(data);
         setNews(data);

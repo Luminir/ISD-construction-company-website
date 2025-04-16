@@ -42,7 +42,7 @@ const News_Details = () => {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-800">
               {title?.rendered || "No title available"}
             </h1>
-            <p className="text-xs md:text-sm text-gray-500 mt-1">
+            <p className="text-l md:text-sm text-gray-500 mt-1">
               🕒 Ngày đăng: {date_gmt || "N/A"}
             </p>
             <div className="border-t border-gray-300 my-3"></div>
